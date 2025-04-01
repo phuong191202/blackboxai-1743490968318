@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing - Dropbox Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="font-sans">
+  <!-- Header -->
+  <div id="header"></div>
+
+  <!-- Pricing Section -->
+  <section class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold mb-4">Simple, transparent pricing</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">Choose the plan that works best for you and your team</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Free Plan -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-2">Free</h3>
+            <p class="text-gray-600 mb-6">For individuals getting started</p>
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$0</span>
+              <span class="text-gray-500">/month</span>
+            </div>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>2 GB storage</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Basic file sharing</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>30-day file recovery</span>
+              </li>
+            </ul>
+            <a href="/signup.html" class="block w-full bg-gray-100 text-gray-800 py-3 rounded text-center font-medium hover:bg-gray-200 transition">Get started</a>
+          </div>
+        </div>
+
+        <!-- Pro Plan -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-blue-500 transform scale-105">
+          <div class="bg-blue-500 text-white text-center py-2">
+            <span class="font-medium">Most popular</span>
+          </div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-2">Pro</h3>
+            <p class="text-gray-600 mb-6">For professionals and small teams</p>
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$9.99</span>
+              <span class="text-gray-500">/month</span>
+            </div>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>1 TB storage</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Advanced sharing controls</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>180-day file recovery</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Remote device wipe</span>
+              </li>
+            </ul>
+            <a href="/signup.html" class="block w-full bg-blue-500 text-white py-3 rounded text-center font-medium hover:bg-blue-600 transition">Get started</a>
+          </div>
+        </div>
+
+        <!-- Business Plan -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-2">Business</h3>
+            <p class="text-gray-600 mb-6">For teams and organizations</p>
+            <div class="mb-6">
+              <span class="text-4xl font-bold">$15</span>
+              <span class="text-gray-500">/user/month</span>
+            </div>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Unlimited storage</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Advanced admin controls</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>1-year file recovery</span>
+              </li>
+              <li class="flex items-center">
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                <span>Priority support</span>
+              </li>
+            </ul>
+            <a href="/signup.html" class="block w-full bg-gray-100 text-gray-800 py-3 rounded text-center font-medium hover:bg-gray-200 transition">Contact sales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-6 max-w-4xl">
+      <h2 class="text-3xl font-bold text-center mb-12">Frequently asked questions</h2>
+      <div class="space-y-6">
+        <!-- FAQ Item 1 -->
+        <div class="border-b border-gray-200 pb-6">
+          <button class="flex justify-between items-center w-full text-left font-medium">
+            <span>What payment methods do you accept?</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="mt-4 text-gray-600 hidden">
+            We accept all major credit cards including Visa, Mastercard, and American Express. We also support PayPal payments.
+          </div>
+        </div>
+        <!-- More FAQ items would go here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div id="footer"></div>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
